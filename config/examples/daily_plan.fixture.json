@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-07-11T08:30:00+00:00",
+  "plan_date": "2026-07-11",
+  "created_at": "2026-07-11T09:00:00+00:00",
+  "budget": {
+    "max_search_queries": 3,
+    "max_candidate_reviews": 3,
+    "max_interaction_targets": 2,
+    "minimum_target_interval_seconds": 600,
+    "visible_step_min_seconds": 10,
+    "visible_step_max_seconds": 15,
+    "schedule_window_seconds": 180
+  },
+  "items": [
+    {
+      "candidate": "config/examples/candidate_interaction_plan.fixture.json",
+      "draft": "config/examples/message_plan.fixture.json"
+    }
+  ]
+}

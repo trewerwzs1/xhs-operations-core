@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "account_id": "replace_with_local_account_id",
+  "display_name": "待配置账号",
+  "account_type": "brand",
+  "identity_summary": "由用户确认的账号身份与公开表达边界",
+  "verified_experience": [],
+  "tone_preferences": [
+    "简短",
+    "自然",
+    "先回应对方内容"
+  ],
+  "prohibited_claims": [
+    "不虚构价格、日期、名额、地点或报名方式",
+    "不承诺无法验证的活动结果"
+  ],
+  "allowed_actions": [
+    "like",
+    "comment",
+    "reply"
+  ],
+  "raw_reply_corpus_enabled": true,
+  "timezone": "Asia/Shanghai",
+  "default_duration_days": 5,
+  "daily_window_start": "10:00",
+  "daily_window_end": "22:00",
+  "heartbeat_minutes": 10,
+  "max_targets_per_day": 12,
+  "max_likes_per_day": 12,
+  "max_comments_per_day": 6,
+  "max_replies_per_day": 6,
+  "approval_mode": "bounded_campaign",
+  "corpus_retention_days": 365,
+  "created_at": "2026-07-12T00:00:00+08:00"
+}

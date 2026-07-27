@@ -1,0 +1,18 @@
+{
+  "name": "xhs-operations-core",
+  "version": "2.0.0-alpha.1",
+  "description": "Operate the packaged XHS Operations Core Xiaohongshu core through five safe workflows.",
+  "author": {
+    "name": "XHS Operations Core"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "XHS Operations Core",
+    "shortDescription": "Setup and run five Xiaohongshu workflows safely.",
+    "longDescription": "A local Codex entry layer for Setup, Publish, Service, Engage, and Review using the packaged Run Agent and XHS Bridge boundary.",
+    "developerName": "XHS Operations Core",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Local execution"],
+    "defaultPrompt": "Set up this XHS Operations Core project and continue from the next verified step."
+  }
+}

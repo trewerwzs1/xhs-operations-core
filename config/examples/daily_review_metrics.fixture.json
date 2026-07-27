@@ -1,0 +1,20 @@
+{
+  "query_runs": [
+    {
+      "run_id": "query_run_fixture_001",
+      "query_id": "query_local_workshop",
+      "searched_notes": 3,
+      "opened_notes": 2,
+      "visible_comments": 8,
+      "candidates_a": 1,
+      "candidates_b": 0,
+      "candidates_c": 2,
+      "candidates_x": 1,
+      "messages_valid": 1,
+      "messages_blocked": 0,
+      "human_approved": 0,
+      "exhausted": false,
+      "stop_reasons": []
+    }
+  ]
+}

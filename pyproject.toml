@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xhs-operations-core"
+version = "2.0.0a0"
+description = "Local Codex core for single-account Xiaohongshu setup, publishing, service, engagement, and operation records"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "XHS Operations Core" }]
+dependencies = [
+  "python-socks>=2.8.1,<3",
+  "requests>=2.28,<3",
+  "tzdata>=2025.2",
+  "websockets>=12,<17",
+]
+
+[project.scripts]
+xhs-operations-core = "xhs_operations_core.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

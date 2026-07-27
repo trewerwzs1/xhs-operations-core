@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 230px; padding: 16px; font: 13px -apple-system, "PingFang SC", sans-serif; color: #333; }
+    h3 { margin: 0 0 12px; font-size: 14px; }
+    .row { display: flex; justify-content: space-between; margin: 8px 0; }
+    .ok { color: #1e8e3e; } .err { color: #c5221f; }
+    .hint { color: #777; font-size: 11px; line-height: 1.5; border-top: 1px solid #eee; padding-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>XHS Operations Core Bridge</h3>
+  <div class="row"><span>Bridge 服务</span><span id="bridge">检测中…</span></div>
+  <div class="row"><span>扩展</span><span class="ok">运行中</span></div>
+  <p class="hint" id="hint">仅提供页面导航与可见 DOM 操作；不读取 Cookie、请求头或网络日志。</p>
+  <script src="popup.js"></script>
+</body>
+</html>

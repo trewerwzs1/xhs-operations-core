@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "account_id": "account_fixture_001",
+  "profile_name": "xhs_fixture_profile_001",
+  "channel": "chrome",
+  "headless": false,
+  "homepage_url": "https://www.xiaohongshu.com/explore",
+  "timeout_seconds": 15,
+  "slow_mo_ms": 100,
+  "fixture_only": true,
+  "allow_platform_access": false,
+  "login_signature": {
+    "positive_selectors": [
+      ".side-bar .channel-list-content a:has-text(\"我\")",
+      ".side-bar a:has-text(\"我\")"
+    ],
+    "positive_texts": ["创作中心"],
+    "negative_selectors": [
+      ".side-bar-ai-un-loggedIn #login-btn",
+      ".layout.ai-layout-unlogin"
+    ],
+    "negative_texts": [],
+    "risk_texts": ["验证码", "异常登录", "操作频繁"],
+    "calibration_status": "donor_verified_needs_recheck"
+  }
+}

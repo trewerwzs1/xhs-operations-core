@@ -1,0 +1,46 @@
+{
+  "candidate_id": "candidate_356e8c8fb184c68f",
+  "campaign_id": "campaign_fixture_generic_event_001",
+  "query_id": "query_local_workshop",
+  "segment_id": "strategy_core",
+  "note_id": "fixture_note_001",
+  "target_comment_id": "comment_003",
+  "commenter": "城市活动爱好者",
+  "full_text": "测试城市周末有手作体验活动吗？",
+  "anchor_text": "测试城市周末有手作体验活动吗？",
+  "evidence_level": "A",
+  "proposed_action": "reply_comment",
+  "scores": {
+    "topic_relevance": 50,
+    "activity_intent": 65,
+    "location_fit": 100,
+    "natural_reply_opportunity": 100,
+    "risk": 0
+  },
+  "evidence": [
+    {
+      "evidence_type": "topic_interest",
+      "quote": "手作体验",
+      "rationale": "评论明确提到手作体验"
+    },
+    {
+      "evidence_type": "activity_intent",
+      "quote": "体验活动",
+      "rationale": "评论询问线下体验活动"
+    },
+    {
+      "evidence_type": "question_or_request",
+      "quote": "吗？",
+      "rationale": "评论是明确问题"
+    },
+    {
+      "evidence_type": "location_match",
+      "quote": "测试城市",
+      "rationale": "与活动城市一致"
+    }
+  ],
+  "hard_blocks": [],
+  "decision_reason": "visible topic and activity-intent evidence support a natural reply",
+  "message_status": "not_generated",
+  "approval_status": "awaiting_message_and_human_review"
+}

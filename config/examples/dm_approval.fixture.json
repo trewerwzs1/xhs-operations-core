@@ -1,0 +1,13 @@
+{
+  "approval_id": "dm_approval_fixture_001",
+  "account_id": "account_fixture_001",
+  "campaign_id": "campaign_fixture_generic_event_001",
+  "conversation_id": "conversation_fixture_001",
+  "conversation_snapshot_hash": "abf4d043f089bbc2a8ea98b3373616280c0f49de353918bf58b30c9cdf4647a6",
+  "dm_plan_id": "dm_plan_7efc116a30d06c3c",
+  "message_content_hash": "05d425a32b6431df8fd1b3e4fae42df88f0c9f54d9ea770c6580704e24b902ce",
+  "mode": "passive_reply",
+  "approved_at": "2026-07-11T10:31:00+00:00",
+  "approved_by": "user",
+  "scope": "single_dm_message"
+}

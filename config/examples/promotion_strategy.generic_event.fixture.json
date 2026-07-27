@@ -1,0 +1,114 @@
+{
+  "intent": {
+    "mode": "direct_brief",
+    "source_id": "brief_fixture_local_workshop_001",
+    "source_ref": "user_direct_brief:local_workshop_001",
+    "title": "",
+    "body": "",
+    "brief": "寻找对周末线下手作活动和本地生活体验感兴趣的用户",
+    "user_keywords": [
+      "手作活动",
+      "本地生活"
+    ],
+    "exclusions": [
+      "未成年人线索",
+      "商业广告账号"
+    ],
+    "created_at": "2026-07-11T08:00:00+00:00"
+  },
+  "strategy_draft": {
+    "strategy_id": "strategy_local_workshop_001",
+    "checked_at": "2026-07-11T08:05:00+00:00",
+    "interaction_goal": "通过相关帖子下的自然短互动吸引感兴趣的用户访问账号",
+    "topics": [
+      {
+        "topic_id": "topic_local_workshop",
+        "label": "周末线下手作活动",
+        "layer": "core",
+        "evidence_quote": "周末线下手作活动",
+        "parent_topic_ids": [],
+        "relationship": ""
+      },
+      {
+        "topic_id": "topic_craft_experience",
+        "label": "手作体验",
+        "layer": "adjacent",
+        "evidence_quote": "",
+        "parent_topic_ids": [
+          "topic_local_workshop"
+        ],
+        "relationship": "与线下手作活动直接相关的兴趣"
+      },
+      {
+        "topic_id": "topic_weekend_local",
+        "label": "本地周末活动",
+        "layer": "scene",
+        "evidence_quote": "",
+        "parent_topic_ids": [
+          "topic_local_workshop"
+        ],
+        "relationship": "活动所在的本地周末场景"
+      },
+      {
+        "topic_id": "topic_city_lifestyle",
+        "label": "城市生活方式",
+        "layer": "broad",
+        "evidence_quote": "",
+        "parent_topic_ids": [
+          "topic_weekend_local"
+        ],
+        "relationship": "对城市生活方式感兴趣的人可能关注本地体验"
+      }
+    ],
+    "queries": [
+      {
+        "query_id": "query_local_workshop",
+        "query": "周末 手作活动",
+        "layer": "core",
+        "topic_ids": [
+          "topic_local_workshop"
+        ],
+        "rationale": "召回直接关注周末手作活动的人群",
+        "max_notes_to_open": 3,
+        "daily_share_cap": 1.0
+      },
+      {
+        "query_id": "query_craft_experience",
+        "query": "手作 体验课",
+        "layer": "adjacent",
+        "topic_ids": [
+          "topic_craft_experience"
+        ],
+        "rationale": "召回对手作体验感兴趣的人群",
+        "max_notes_to_open": 3,
+        "daily_share_cap": 0.6
+      },
+      {
+        "query_id": "query_weekend_local",
+        "query": "本地 周末活动",
+        "layer": "scene",
+        "topic_ids": [
+          "topic_weekend_local"
+        ],
+        "rationale": "召回寻找本地周末活动的人群",
+        "max_notes_to_open": 3,
+        "daily_share_cap": 0.4
+      },
+      {
+        "query_id": "query_city_lifestyle",
+        "query": "城市 生活体验",
+        "layer": "broad",
+        "topic_ids": [
+          "topic_city_lifestyle"
+        ],
+        "rationale": "小比例测试泛城市生活兴趣人群",
+        "max_notes_to_open": 2,
+        "daily_share_cap": 0.25
+      }
+    ],
+    "exclusions": [
+      "纯商品带货",
+      "与线下活动无关"
+    ]
+  }
+}

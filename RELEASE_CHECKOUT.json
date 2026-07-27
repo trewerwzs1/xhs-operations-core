@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "release_id": "xhs-operations-core-0.4.0-rc.1",
+  "release_status": "release_ready",
+  "package_version": "0.4.0rc1",
+  "runtime": "Codex Desktop",
+  "pre_delivery_real_account_required": false,
+  "recipient_setup_steps": 6,
+  "offline_uat_expected_check_count": 46,
+  "automated_test_expected_passed": 533,
+  "automated_test_allowed_skips": 0,
+  "automated_test_subtests_passed": 110,
+  "capabilities": {
+    "specified_note_input": "offline_full_flow_pass",
+    "direct_brief_input": "offline_full_flow_pass",
+    "account_latest_note_input": "offline_contract_pass_recipient_read_activation_required",
+    "promotion_strategy_to_daily_cli": "pass_fail_closed_on_missing_or_mismatch",
+    "single_search_sequential_candidates": "real_single_search_sequential_session_pass",
+    "exact_next_candidate_gate": "pass",
+    "single_post_engagement_package": "offline_contract_pass",
+    "note_like": "real_visible_before_after_verified",
+    "top_level_comment": "real_submit_rejected_by_platform_account_mute_offline_contract_verified",
+    "comment_reply": "real_exact_target_path_pre_dispatch_blocked_by_platform_account_mute_offline_contract_verified",
+    "comment_like_only": "offline_fixture_verified",
+    "four_atomic_actions_across_heartbeats": "offline_fixture_verified_603_second_intervals",
+    "lead_record_persistence": "offline_full_flow_pass_exact_dm_lifecycle_verified",
+    "active_dm": "single_exact_preapproved_message_contract_pass_live_send_requires_exact_user_approval",
+    "multi_day_task_authorization_and_caps": "pass",
+    "local_schedule_registration": "occurrence_idempotency_pass_recipient_window_configuration",
+    "real_xhs_read_write": "read_and_like_pass_platform_account_mute_blocks_comment_reply_success",
+    "packaged_extension_bridge_dom": "pass_real_loaded_rc2_bridge_and_actual_local_chrome_dom",
+    "clean_computer_setup": "installer_and_clean_install_verifier_ready",
+    "final_delivery_archive": "release_builder_ready_packaging_evidence_required"
+  },
+  "post_engagement_defaults": {
+    "max_top_level_comments_per_note": 1,
+    "min_replies_when_eligible": 1,
+    "max_replies_per_note": 3,
+    "max_comment_likes_per_note": 3,
+    "max_dm_candidates_per_note": 1,
+    "minimum_target_interval_seconds": 600,
+    "visible_step_seconds": [10, 15],
+    "one_target_per_heartbeat": true
+  },
+  "known_product_limits": [
+    "the available development test account is platform-muted; successful comment and reply activation is a recipient Setup gate on an unrestricted account",
+    "active DM permits only one exact target and exact pre-approved message; no bulk or inferred send is allowed",
+    "Chrome unpacked extension loading and Xiaohongshu QR login are manual local Setup steps",
+    "platform UI changes may require a product update; no fallback browser method is allowed",
+    "source release readiness does not replace exact-ZIP and two-clean-install packaging evidence"
+  ],
+  "authoritative_documents": [
+    "docs/handoff/11_xhs_execution_development_acceptance_report.md",
+    "docs/handoff/12_release_packaging_runbook.md",
+    "docs/development/10_xhs_execution_layer_system_optimization_plan.md",
+    "docs/architecture/14_post_engagement_driver_standard.md",
+    "skills/xhs-operations-core/SKILL.md"
+  ]
+}

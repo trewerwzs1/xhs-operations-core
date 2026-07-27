@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_name": "XHS Operations Core",
+  "codex": {
+    "required_runtime": "desktop"
+  },
+  "runtime": {
+    "runtime_dir": "data/runtime",
+    "logs_dir": "logs",
+    "reports_dir": "reports/runtime",
+    "browser_profiles_dir": "browser-profiles"
+  }
+}

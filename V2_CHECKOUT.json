@@ -1,0 +1,76 @@
+{
+  "schema_version": 2,
+  "product": "XHS Operations Core",
+  "product_generation": "V2",
+  "status": "release_ready",
+  "release_ready": true,
+  "execution_enabled": true,
+  "known_blockers": [],
+  "target": {
+    "package_version": "2.0.0a0",
+    "release_id": "xhs-operations-core-v2-2.0.0-alpha.0",
+    "runtime": "Codex Desktop",
+    "deployment_unit": "one self-contained project directory",
+    "account_scope": "one local Xiaohongshu account per workspace"
+  },
+  "browser_policy": {
+    "codex_reasoning_plane": true,
+    "live_xhs_adapter": "ranfang_run_agent_xhs_bridge",
+    "codex_builtin_browser": "localhost_fixture_or_explicit_public_readonly_only",
+    "codex_chrome_extension": "not_a_product_runtime_dependency",
+    "computer_use": "not_allowed_for_live_xhs",
+    "fallback_live_browser": false
+  },
+  "architecture_contract": {
+    "product_shape": "four_business_workflows_plus_readonly_operation_ledger",
+    "business_workflows": [
+      "setup",
+      "publish",
+      "service",
+      "engage"
+    ],
+    "review_compatibility_commands": [
+      "status",
+      "list",
+      "export"
+    ],
+    "review_business_analysis_allowed": false,
+    "setup_readiness": [
+      "platform_ready",
+      "voice_ready",
+      "operations_ready"
+    ],
+    "account_voice_blocks_platform_ready": false,
+    "live_xhs_call_chain": "XhsOperationGateway -> ranfang_run_agent -> XHS Bridge",
+    "current_authority_model": "autonomous_public_workflows_live_core_verified",
+    "target_authority_model": "task_intent_to_execution_mandate_to_internal_action_permit",
+    "target_user_per_action_authorization_required": false
+  },
+  "public_surface": {
+    "setup": "autonomous_ready",
+    "publish": "autonomous_program_ready_live_uat_pending",
+    "service": "autonomous_program_ready_live_verified_empty_batch",
+    "engage": "autonomous_live_verified_core",
+    "review": "ready_readonly_operation_ledger"
+  },
+  "stages": {
+    "stage_1_foundation": "pass",
+    "stage_2_setup_and_account_voice": "program_pass_live_uat_pending",
+    "stage_3_publish": "program_pass_live_uat_pending",
+    "stage_4_service": "program_pass_live_uat_pending",
+    "stage_5_engage_and_review": "autonomous_live_verified_core",
+    "stage_6_plugin_and_delivery": "pass"
+  },
+  "industry_neutral": true,
+  "bundled_business_packs": [],
+  "core_business_pack_dependency": false,
+  "delivery_business_pack_dependency": false,
+  "closure_tasks": {
+    "NEUTRAL-01": "pass",
+    "NEUTRAL-02": "pass",
+    "NEUTRAL-03": "pass",
+    "NEUTRAL-04": "pass"
+  },
+  "next_task": "recipient_setup_or_public_alpha_publication",
+  "evidence_scope": "Recipient runtime state only. Internal development, migration, live-UAT, account, target, and campaign evidence is intentionally omitted."
+}

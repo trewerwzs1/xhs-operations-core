@@ -1,0 +1,4 @@
+interface:
+  display_name: "XHS Operations Core"
+  short_description: "Run five controlled Xiaohongshu workflows"
+  default_prompt: "Use $xhs-operations-core to set up or run a bounded Xiaohongshu operations task."

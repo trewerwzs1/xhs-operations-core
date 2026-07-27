@@ -1,0 +1,33 @@
+{
+  "fixture_only": true,
+  "thread": {
+    "note_id": "fixture_note_001",
+    "source_url": "https://www.xiaohongshu.com/explore/fixture_note_001",
+    "title": "周末手作体验怎么选",
+    "body": "记录本地手作课堂和完成作品的过程 #周末活动",
+    "captured_at": "2026-07-11T10:30:00+08:00",
+    "comments": [
+      {
+        "raw_comment_id": "comment_001",
+        "commenter": "旅行爱好者",
+        "text": "想去，手机 13812345678",
+        "kind": "main",
+        "parent_visible_order": null
+      },
+      {
+        "raw_comment_id": "comment_002",
+        "commenter": "同行朋友",
+        "text": "微信 abcdef_123 可以交流",
+        "kind": "reply",
+        "parent_visible_order": 0
+      },
+      {
+        "raw_comment_id": "comment_003",
+        "commenter": "城市活动爱好者",
+        "text": "测试城市周末有手作体验活动吗？",
+        "kind": "main",
+        "parent_visible_order": null
+      }
+    ]
+  }
+}

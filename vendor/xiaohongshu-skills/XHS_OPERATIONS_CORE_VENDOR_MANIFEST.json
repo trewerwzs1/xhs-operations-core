@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "provider": "autoclaw-cc/xiaohongshu-skills",
+  "adapter_method": "ranfang_run_agent",
+  "extension_build_id": "tonyredbook-0.4.0-rc3",
+  "source_release": "v0.1.0-b043748",
+  "source_archive_sha256": "7708c17b0d02c9cfb874f775c177f9f09df1ab583e32fabe04429c6bf8c50e58",
+  "vendor_tree_sha256": "19ac0771c43fb3cb78b3ec8b02116c0e343e7627f832bc20599fdfe70d2acba5",
+  "license": "MIT",
+  "read_only_capability_enabled": true,
+  "bounded_write_uat_capability_enabled": true,
+  "execution_enabled": true,
+  "hardening_status": "release_ready",
+  "known_blockers": [],
+  "capability_limits": [
+    "v2_publish_image_and_video_live_uat_pending",
+    "v2_service_inbox_live_uat_pending"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "current_url": "https://www.xiaohongshu.com/explore?fixture=removed",
+  "positive_selector_counts": {
+    ".side-bar .channel-list-content a:has-text(\"我\")": 1,
+    ".side-bar a:has-text(\"我\")": 1
+  },
+  "positive_text_counts": {"创作中心": 0},
+  "negative_selector_counts": {
+    ".side-bar-ai-un-loggedIn #login-btn": 0,
+    ".layout.ai-layout-unlogin": 0
+  },
+  "negative_text_counts": {},
+  "risk_text_counts": {"验证码": 0, "异常登录": 0, "操作频繁": 0}
+}

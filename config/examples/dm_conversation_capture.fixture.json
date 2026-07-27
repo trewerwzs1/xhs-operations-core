@@ -1,0 +1,25 @@
+{
+  "conversation_id": "conversation_fixture_001",
+  "peer_ref": "fixture_peer_private_ref",
+  "messages": [
+    {
+      "message_id": "dm_in_001",
+      "direction": "incoming",
+      "text": "你好，想问一下周末手作体验适合新手吗？",
+      "sent_at": "2026-07-11T18:00:00+08:00"
+    },
+    {
+      "message_id": "dm_out_001",
+      "direction": "outgoing",
+      "text": "适合的，你更喜欢实用作品还是装饰类作品？",
+      "sent_at": "2026-07-11T18:05:00+08:00"
+    },
+    {
+      "message_id": "dm_in_002",
+      "direction": "incoming",
+      "text": "实用一点，之前电话是 13800138000",
+      "sent_at": "2026-07-11T18:10:00+08:00"
+    }
+  ],
+  "risk_signals": []
+}

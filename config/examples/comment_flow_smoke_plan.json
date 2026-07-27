@@ -1,0 +1,27 @@
+{
+  "fixture_only": true,
+  "plan": {
+    "plan_id": "plan_generic_comment_smoke_001",
+    "campaign_id": "fixture_campaign_comment_flow_001",
+    "account_id": "fixture_account_001",
+    "query": "示例活动路线",
+    "result_index": 0,
+    "target": {
+      "candidate_id": "fixture_candidate_comment_001",
+      "target_comment_id": "fixture_comment_001",
+      "note_id": "fixture_note_comment_flow_001",
+      "commenter": "示例用户甲",
+      "full_text": "这个路线看起来很有意思",
+      "anchor_text": "这个路线",
+      "context_hash": "4af155cb472bd72ae6e448b3d01d17ab8c1303574f9c5cf8de921284f6c4971f"
+    },
+    "reply_text": "这个方向很适合慢慢体验，你更喜欢路线里的文化内容，还是当地餐饮？",
+    "approval_ref": "fixture_user_approval_ref",
+    "source_context_ref": "message:message_fixture_generic_001:227071c9f0ffc7945ec3a6692686f3a2a3856842e6cf1c3f3c3cfe9e70434332",
+    "bridge_id": "bridge_fixture_generic_001",
+    "message_plan_id": "message_fixture_generic_001",
+    "message_content_hash": "227071c9f0ffc7945ec3a6692686f3a2a3856842e6cf1c3f3c3cfe9e70434332",
+    "approval_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "run_mode": "smoke"
+  }
+}

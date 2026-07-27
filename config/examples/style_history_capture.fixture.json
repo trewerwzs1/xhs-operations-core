@@ -1,0 +1,64 @@
+{
+  "page_count": 1,
+  "has_more": true,
+  "next_note_position": 1,
+  "notes": [
+    {
+      "note_id": "fixture_history_note_001",
+      "note_ref": "https://www.xiaohongshu.com/explore/fixture_history_note_001?xsec_token=secret",
+      "title": "周末的一次手作记录",
+      "body": "简单记一下当天完成作品的过程。",
+      "published_at": "2026-06-01T10:00:00+08:00",
+      "comments": [
+        {
+          "comment_id": "visitor_001",
+          "parent_comment_id": null,
+          "commenter_role": "visitor",
+          "text": "新手参加会不会听不懂？",
+          "published_at": "2026-06-01T11:00:00+08:00",
+          "ownership_evidence": null
+        },
+        {
+          "comment_id": "owner_reply_001",
+          "parent_comment_id": "visitor_001",
+          "commenter_role": "account_owner",
+          "text": "不会呀，先从步骤简单、自己感兴趣的作品开始就行～",
+          "published_at": "2026-06-01T11:10:00+08:00",
+          "ownership_evidence": "author_badge"
+        },
+        {
+          "comment_id": "visitor_002",
+          "parent_comment_id": null,
+          "commenter_role": "visitor",
+          "text": "这种一般要准备什么？",
+          "published_at": "2026-06-01T12:00:00+08:00",
+          "ownership_evidence": null
+        },
+        {
+          "comment_id": "owner_reply_002",
+          "parent_comment_id": "visitor_002",
+          "commenter_role": "account_owner",
+          "text": "不用准备太多，你平时更喜欢实用还是装饰类作品？",
+          "published_at": "2026-06-01T12:10:00+08:00",
+          "ownership_evidence": "account_user_id_match"
+        },
+        {
+          "comment_id": "visitor_003",
+          "parent_comment_id": null,
+          "commenter_role": "visitor",
+          "text": "怎么联系？",
+          "published_at": "2026-06-01T13:00:00+08:00",
+          "ownership_evidence": null
+        },
+        {
+          "comment_id": "owner_reply_003",
+          "parent_comment_id": "visitor_003",
+          "commenter_role": "account_owner",
+          "text": "之前留过 13800138000，不过现在先看你想了解哪类体验吧",
+          "published_at": "2026-06-01T13:10:00+08:00",
+          "ownership_evidence": "author_badge"
+        }
+      ]
+    }
+  ]
+}

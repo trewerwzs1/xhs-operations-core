@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "XHS Bridge",
+  "version": "1.1.2",
+  "description": "小红书自动化 Bridge - 连接本地 Python CLI",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "alarms",
+    "debugger",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.xiaohongshu.com/*",
+    "https://xiaohongshu.com/*",
+    "ws://localhost/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "XHS Bridge"
+  }
+}

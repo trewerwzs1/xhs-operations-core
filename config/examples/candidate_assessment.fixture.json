@@ -1,0 +1,33 @@
+{
+  "fixture_only": true,
+  "checked_at": "2026-07-11T08:30:00+00:00",
+  "query_index": 0,
+  "target_visible_order": 2,
+  "location_status": "match",
+  "minor_risk": false,
+  "commercial_ad": false,
+  "previously_contacted": false,
+  "opt_out": false,
+  "evidence": [
+    {
+      "evidence_type": "topic_interest",
+      "quote": "手作体验",
+      "rationale": "评论明确提到手作体验"
+    },
+    {
+      "evidence_type": "activity_intent",
+      "quote": "体验活动",
+      "rationale": "评论询问线下体验活动"
+    },
+    {
+      "evidence_type": "question_or_request",
+      "quote": "吗？",
+      "rationale": "评论是明确问题"
+    },
+    {
+      "evidence_type": "location_match",
+      "quote": "测试城市",
+      "rationale": "与活动城市一致"
+    }
+  ]
+}

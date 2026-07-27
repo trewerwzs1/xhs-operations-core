@@ -1,0 +1,12 @@
+{
+  "approval_id": "approval_fixture_001",
+  "account_id": "account_fixture_001",
+  "campaign_id": "campaign_fixture_generic_event_001",
+  "candidate_id": "candidate_356e8c8fb184c68f",
+  "message_plan_id": "message_298934e320e4e8e4",
+  "message_content_hash": "6b340f1abfecadbbe31e5d590abf2bd79a3e02df9f43f4c6583336b61edd5a98",
+  "target_comment_id": "comment_003",
+  "approved_at": "2026-07-11T09:00:00+00:00",
+  "approved_by": "user",
+  "scope": "single_comment_target"
+}

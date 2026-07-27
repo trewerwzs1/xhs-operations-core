@@ -1,0 +1,120 @@
+{
+  "campaign_id": "campaign_fixture_001",
+  "account_id": "account_fixture_001",
+  "note_id": "fixture_note_post_engagement_001",
+  "checked_at": "2026-07-13T10:00:00+08:00",
+  "note_relevance_score": 88,
+  "top_level_comment": {
+    "plan_id": "note_comment_plan_fixture_001",
+    "validation_ok": true,
+    "already_commented": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate_001",
+      "target_comment_id": "comment_001",
+      "user_id": "user_001",
+      "evidence_level": "A",
+      "scores": {"topic_relevance": 95, "activity_intent": 92, "natural_reply_opportunity": 90, "risk": 0},
+      "reply_plan_id": "reply_plan_001",
+      "exact_target_visible": true,
+      "like_supported": true,
+      "previously_replied": false,
+      "previously_liked": false,
+      "previously_dm_contacted": false,
+      "hard_blocks": []
+    },
+    {
+      "candidate_id": "candidate_002",
+      "target_comment_id": "comment_002",
+      "user_id": "user_002",
+      "evidence_level": "A",
+      "scores": {"topic_relevance": 86, "activity_intent": 78, "natural_reply_opportunity": 88, "risk": 0},
+      "reply_plan_id": "reply_plan_002",
+      "exact_target_visible": true,
+      "like_supported": true,
+      "previously_replied": false,
+      "previously_liked": false,
+      "previously_dm_contacted": false,
+      "hard_blocks": []
+    },
+    {
+      "candidate_id": "candidate_003",
+      "target_comment_id": "comment_003",
+      "user_id": "user_003",
+      "evidence_level": "B",
+      "scores": {"topic_relevance": 72, "activity_intent": 66, "natural_reply_opportunity": 82, "risk": 0},
+      "reply_plan_id": "reply_plan_003",
+      "exact_target_visible": true,
+      "like_supported": true,
+      "previously_replied": false,
+      "previously_liked": false,
+      "previously_dm_contacted": false,
+      "hard_blocks": []
+    },
+    {
+      "candidate_id": "candidate_004",
+      "target_comment_id": "comment_004",
+      "user_id": "user_004",
+      "evidence_level": "B",
+      "scores": {"topic_relevance": 68, "activity_intent": 61, "natural_reply_opportunity": 75, "risk": 0},
+      "reply_plan_id": "reply_plan_004",
+      "exact_target_visible": true,
+      "like_supported": true,
+      "previously_replied": false,
+      "previously_liked": false,
+      "previously_dm_contacted": false,
+      "hard_blocks": []
+    },
+    {
+      "candidate_id": "candidate_005",
+      "target_comment_id": "comment_005",
+      "user_id": "user_005",
+      "evidence_level": "B",
+      "scores": {"topic_relevance": 62, "activity_intent": 55, "natural_reply_opportunity": 70, "risk": 0},
+      "reply_plan_id": "reply_plan_005",
+      "exact_target_visible": true,
+      "like_supported": true,
+      "previously_replied": false,
+      "previously_liked": false,
+      "previously_dm_contacted": false,
+      "hard_blocks": []
+    },
+    {
+      "candidate_id": "candidate_006",
+      "target_comment_id": "comment_006",
+      "user_id": "user_006",
+      "evidence_level": "B",
+      "scores": {"topic_relevance": 58, "activity_intent": 50, "natural_reply_opportunity": 68, "risk": 0},
+      "reply_plan_id": "reply_plan_006",
+      "exact_target_visible": true,
+      "like_supported": true,
+      "previously_replied": false,
+      "previously_liked": false,
+      "previously_dm_contacted": false,
+      "hard_blocks": []
+    },
+    {
+      "candidate_id": "candidate_007",
+      "target_comment_id": "comment_007",
+      "user_id": "user_007",
+      "evidence_level": "B",
+      "scores": {"topic_relevance": 54, "activity_intent": 48, "natural_reply_opportunity": 65, "risk": 0},
+      "reply_plan_id": "reply_plan_007",
+      "exact_target_visible": true,
+      "like_supported": true,
+      "previously_replied": false,
+      "previously_liked": false,
+      "previously_dm_contacted": false,
+      "hard_blocks": []
+    }
+  ],
+  "dm_template": {
+    "template_id": "dm_template_generic_001",
+    "template_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "approval_ref": "approval_dm_template_001",
+    "approved_for_campaign": true
+  },
+  "dm_capability_available": false,
+  "policy": {}
+}
