@@ -1,6 +1,6 @@
 # XHS Operations Core
 
-> V2 Stage 1–5 的程序路径已完成，Stage 6 的 Codex Plugin 已通过官方 CLI 隔离安装验证，正在生成并验证两份干净安装。公开入口固定为 `setup`、`publish`、`service`、`engage`、`review`。V2 当前真相只看 `V2_CHECKOUT.json` 和 `docs/v2/`。
+> V2 Stage 1–6 已完成，最终 ZIP 已通过两次独立干净安装验证。公开入口固定为 `setup`、`publish`、`service`、`engage`、`review`。首个公开 Alpha 已发布；V2 当前真相只看 `V2_CHECKOUT.json` 和 `docs/v2/`。
 
 > Python 包版本现为 `2.0.0a0`。这是一份 V2 alpha 候选，不表示真实平台 UAT 已完成；真实账号读取与写入状态仍必须以 `V2_CHECKOUT.json` 的 pending 项为准。
 

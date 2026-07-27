@@ -13,6 +13,17 @@
     "deployment_unit": "one self-contained project directory",
     "account_scope": "one local Xiaohongshu account per workspace"
   },
+  "public_release": {
+    "repository": "https://github.com/trewerwzs1/xhs-operations-core",
+    "release_url": "https://github.com/trewerwzs1/xhs-operations-core/releases/tag/v2.0.0-alpha.0",
+    "tag": "v2.0.0-alpha.0",
+    "prerelease": true,
+    "public_commit": "9217d10cdc863e6d86668a91575dfeb6ea16c742",
+    "archive": "xhs-operations-core-2.0.0-alpha.0.zip",
+    "archive_sha256": "9a28c434d8cae7ee83803b966d2acbdd3a2f149b2b7902f1198f0bbb379b9c43",
+    "asset_count": 2,
+    "remote_verified": true
+  },
   "browser_policy": {
     "codex_reasoning_plane": true,
     "live_xhs_adapter": "ranfang_run_agent_xhs_bridge",
@@ -71,6 +82,6 @@
     "NEUTRAL-03": "pass",
     "NEUTRAL-04": "pass"
   },
-  "next_task": "recipient_setup_or_public_alpha_publication",
+  "next_task": "recipient_setup",
   "evidence_scope": "Recipient runtime state only. Internal development, migration, live-UAT, account, target, and campaign evidence is intentionally omitted."
 }
